@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__list-item">
+                <a href="#" class="navigation__list-link">INFORMATION</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="navigation__list-link">CONTACTS</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="navigation__list-link">SKILLS</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="navigation__list-link">CODE EXAMPLE</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#" class="navigation__list-link">LANGUAGES</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="title">
+        <div class="container">
+          <div class="title__inner">
+            <img class="title__img" src="resourses/photo_2023-07-06_18-19-20.jpg" alt="img">
+            <div class="title__block">
+              <h1 class="title__maine">Dima Bobrovskiy</h1>
+              <p class="title__maine-text">The most dangerous layout designer in the wild west.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="content__wrapper">
+        <section class="information">
+          <div class="container">
+            <h2 class="section__title inf__title">Briefly About Myself:</h2>
+            <p class="section__title-text">My name is Dmitriy, at the moment I live in Europe, I want to seriously
+              study the IT check and in the future make it my main source of income and kind of activity.</p>
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="container">
+            <h2 class="section__title">Contacts</h2>
+            <ul class="contacts__list">
+              <li class="contacts__list-item">
+                <p class="section__title-text contacts__item"><span class="weigt-word">Phone:</span>+37066941102</p>
+              </li>
+              <li class="contacts__list-item">
+                <p class="section__title-text contacts__item"><span class="weigt-word">E-mail:</span>Dibor228@mail.ru</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="skills">
+          <div class="container">
+            <h2 class="section__title">Skills</h2>
+            <ul class="skills__list">
+              <li class="skills__list-item">
+                <img class="skills__img" src="resourses/blend.png" alt="">
+                <p class="section__title-text skills__text">3D Render 5/10</p>
+              </li>
+              <li class="skills__list-item">
+                <img class="skills__img" src="resourses/ps.png" alt="">
+                <p class="section__title-text skills__text">PhotoShop 3/10</p>
+              </li>
+              <li class="skills__list-item">
+                <img class="skills__img" src="resourses/rog.png" alt="">
+                <p class="section__title-text skills__text">2x2 Arena exp: 2300 MMR</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="code">
+          <div class="container">
+            <h2 class="section__title">Code Example:</h2>
+            <pre class="code__block">
+              <code class="code__text">
+                function isPowerOfTwo(n){
+                  let i = 0;
+                  while(Math.pow(2, i) < n){
+                    i += 1;
+                  }
+                  if(Math.pow(2, i) == n){return true}
+                    else{return false}
+                }
+
+                function findMissing(arr1, arr2) {
+                  let index;
+                  for(let i = 0; i < arr1.length; i++){
+                   index = arr2.indexOf(arr1[i]);
+                   if(index > -1){
+                     arr2.splice(index, 1);
+                   } else{
+                     return arr1[i];
+                   }
+                  }
+                 }
+              </code>
+            </pre>
+          </div>
+        </section>
+        <section class="langs">
+          <div class="container">
+            <h2 class="section__title">Languages</h2>
+            <ul class="langs__list">
+              <li class="langs__list-item">
+                <img class="langs__img" src="resourses/am.png" alt="">
+                <p class="section__title-text skills__text">B1</p>
+              </li>
+              <li class="langs__list-item">
+                <img class="langs__img" src="resourses/D.png" alt="">
+                <p class="section__title-text skills__text">A1</p>
+              </li>
+              <li class="langs__list-item">
+                <img class="langs__img" src="resourses/R.png" alt="">
+                <p class="section__title-text skills__text">Native</p>
+              </li>
+              <li class="langs__list-item">
+                <img class="langs__img" src="resourses/U.png" alt="">
+                <p class="section__title-text skills__text">Native</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wraper">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="https://rs.school/js/" class="rs-link">
+                <img class="rs-img" src="resourses/rs_school_js.svg" alt="rschool">
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <p class="footer__year">2023</p>
+            </li>
+            <li class="footer__list-item">
+              <a href="https://github.com/Dibor228" class="git-link">
+                <img class="git-img" src="resourses/git.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
