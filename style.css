@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+a{
+  text-decoration: none;
+  color: inherit; 
+}
+
+ul{
+  list-style-type: none;
+}
+
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header{
+  background-color: #151515;
+  
+  left: 0;
+  right: 0;
+}
+
+.header__inner{
+  padding-top: 40px;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navigation__list{
+  display: flex;
+  gap: 100px;
+  list-style-type: none;
+}
+
+.navigation__list-link{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+.title__inner{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+  padding-top: 50px;
+
+}
+
+.title__img{
+  max-height: 300px;
+  border-radius: 50%;
+}
+
+
+.title__block{
+  text-align: center;
+}
+
+.title__maine{
+  font-weight: 700;
+  font-size: 70px;
+}
+.title__maine-text{
+  color: rgb(120, 120, 120);
+}
+
+.content__wrapper{
+  background-color: #151515;
+  padding-bottom: 70px;
+}
+
+.information{
+  margin-top: 70px;
+  text-align: center;
+}
+.inf__title{
+  padding-top: 70px;
+}
+.section__title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: rgb(220, 220, 220);
+}
+.section__title-text{
+  
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(200, 200, 200);
+}
+
+.weigt-word{
+  font-weight: 700;
+}
+
+.contacts{
+  text-align: center;
+  margin-top: 70px;
+}
+.contacts__list{
+  display:flex;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+}
+
+.skills{
+  text-align: center;
+  margin-top: 70px;
+}
+.skills__list{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.skills__img{
+  max-height: 100px;
+}
+
+.skills__text{
+  margin-top: 20px;
+  max-width: 130px;
+}
+
+.code{
+  margin-top: 70px;
+}
+.code__block{
+  width: 800px;
+  background-color: rgb(28, 28, 28);
+  border-radius: 30px;
+  margin: 0 auto;
+}
+.code__text{
+  color: green;
+}
+
+.langs{
+  margin-top: 70px;
+}
+.langs__list{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.langs__img{
+  margin-top: 20px;
+  max-height: 100px;
+  border-radius: 10%;
+}
+
+
+.footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer__list{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.rs-img{
+  height: 60px;
+}
+.git-img{
+  max-height: 100px;
+}
+.footer__year{
+  font-weight: 700;
+  text-align: center;
+}
